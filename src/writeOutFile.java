@@ -1,42 +1,4 @@
 /*JAVA FILE********************************************************************
- * FILENAME :	writeOutFile.java
- *
- * DESCRIPTION :
- **	Class that writes the contents of a List<Integer> to a file.
- *
- * CLASS INHERITANCE :
- ** Inherits the Thread class from the standard Java library java.lang.Thread
- *
- * STATIC CLASS VARIABLES :
- ** NONE
- *
- * STATIC CLASS METHODS :
- ** NONE
- *
- * PUBLIC INSTANCE VARIABLES :
- ** NONE
- *
- * PUBLIC INSTANCE METHODS :
- ** 1) void writeOUt(List<Integer>) -- write the contents of the List out into a file
- **     Code that is run in the instance of the thread.
- *
- * NOTE LOG :
- **	1)
- **	2)
- **	...
- *
- * AUTHORS :
- **	Isaac T. Bettendorf
- *
- ** COMPANY/INSTITUTION :
- ** Virginia Tech
- ** ECE 5510 FALL 2020
- *
- *JAVA FILE********************************************************************/
-
-/** Import :
- * Import necessary libraries
- */
 import java.io.*;
 
 
