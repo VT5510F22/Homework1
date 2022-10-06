@@ -4,7 +4,7 @@ import java.util.Arrays;
  *  Uses the parallelPrefix function provided by Java to find the prefix sum
  *
  */
-public class ParallelPrefixInternal implements IPrefix {
+public class ParallelPrefixInternal implements PrefixInterface {
 
     public void run(String inputFileName, int bufferSize) {
 
@@ -75,4 +75,3 @@ public class ParallelPrefixInternal implements IPrefix {
     }
 
 }
-
