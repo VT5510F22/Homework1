@@ -3,7 +3,7 @@
  *
  */
 
-public class ParallelPrefix implements IPrefix {
+public class ParallelPrefix implements PrefixInterface {
 
     public int SeqSize = 250;
 
@@ -103,4 +103,3 @@ public class ParallelPrefix implements IPrefix {
         new ParallelPrefix().run("in.txt", 1000);
     }//END public static void main(..)
 }//END public class ParallelPrefix ..
-
